@@ -3,7 +3,8 @@
     /* Common Styles */
     nav,
     .main-nav ul,
-    .banner-section
+    .banner-section,
+    .gammer
     {
         flex-direction: column;
     }
@@ -13,7 +14,8 @@
     }
 
     .banner,
-    .banner-img
+    .banner-img,
+    .gammer-img
     {
         width: 90%;
     }
@@ -27,6 +29,14 @@
     }
 .banner{
     padding-left: 6rem;
+}
+/* Gammer Section Styles */
+.gammer-content{
+    text-align: center;
+}
+.gammer-description{
+    width: 100%;
+    margin: 1rem 0rem;
 }
 }
 
