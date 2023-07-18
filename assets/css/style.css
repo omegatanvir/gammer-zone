@@ -119,7 +119,12 @@ nav{
     background: rgba(11, 2, 35, 0.10);
     padding: 1.125rem 1.5rem;
 }
-
+/* banner Section */
+.banner{
+    background-image: url('../img/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .banner-section{
     display: flex;
     justify-content: center;
