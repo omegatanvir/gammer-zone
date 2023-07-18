@@ -32,7 +32,7 @@ body{
 
 h2{
     color: var(--black-color);
-    font-size: 48px;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
@@ -118,4 +118,41 @@ nav{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 1.125rem 1.5rem;
+}
+
+.banner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-title-goat{
+    font-size: 5.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-section ul li{
+    color: var(--description-color);
+    font-size: 1.25rem;
+    font-weight: 500;
+    list-style: none;
+    margin-left: 2rem;
+}
+
+.banner-section ul li:last-child{
+    margin-bottom: 1.5rem;
+}
+
+.banner-img img{
+    width: 100%;
 }
