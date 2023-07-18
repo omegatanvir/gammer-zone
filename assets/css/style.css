@@ -1,0 +1,121 @@
+/* Work Sans Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/*====================== */
+/* ------Common Styles---------- */
+/* ===================== */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #FF42A5;
+    --secondary-color: #4EC5F7;
+    --description-color: #534C64;
+    --black-color: #0B0223;
+    --white-color: #FFF;
+    --heading-font-size: 3rem;
+    --description-font-size: 1.125rem;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--description-font-size);
+    font-weight: 400;
+}
+
+h2{
+    color: var(--black-color);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+p{
+    color: var(--description-color);
+    font-size: var(--description-font-size);
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.w25{
+    width: 25%;
+}
+.w50{
+    width: 50%;
+}
+
+.s-gap{
+    margin: 1.25rem 0rem;
+}
+
+/* Button Design */
+.btn-primary{
+    border-radius: 3rem;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: var(--white-color);
+    font-size: var(--description-font-size);
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    padding: 1.25rem 2.5rem;
+}
+
+.btn-secondary{
+    border-radius: 3rem;
+    background: var(--secondary-color);
+    color: var(--white-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    padding: 1.25rem 2.5rem;
+}
+
+/*====================== */
+/* ------Hero Section Styles---------- */
+/* ===================== */
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    font-size: var(--heading-font-size);
+    font-weight: 700;
+}
+
+.logo span{
+    color: var(--primary-color);
+}
+
+.logo img{
+    object-fit: cover;
+    margin-right: 1.125rem;
+}
+.main-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    justify-content: end;
+    align-items: center;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.btn-nav{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 1.125rem 1.5rem;
+}
