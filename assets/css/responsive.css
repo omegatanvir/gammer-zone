@@ -4,7 +4,8 @@
     nav,
     .main-nav ul,
     .banner-section,
-    .gammer
+    .gammer,
+    .online-game > .card-container
     {
         flex-direction: column;
     }
@@ -15,7 +16,7 @@
 
     .banner,
     .banner-img,
-    .gammer-img
+    .gammer-img,
     {
         width: 90%;
     }
@@ -27,9 +28,13 @@
     .main-nav ul:first-child{
         margin-top: 1rem;
     }
-.banner{
-    padding-left: 6rem;
-}
+    .banner .btn-primary{
+        margin-bottom: 1.125rem;
+    }
+
+    .banner-title-goat{
+        font-size: 4rem;
+    }
 /* Gammer Section Styles */
 .gammer-content{
     text-align: center;
@@ -37,6 +42,13 @@
 .gammer-description{
     width: 100%;
     margin: 1rem 0rem;
+}
+/* card section styles */
+.card{
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 500;
+    margin-bottom: 3.5rem;
 }
 }
 
