@@ -51,9 +51,8 @@ p{
 }
 
 .s-gap{
-    margin: 1.25rem 0rem;
+    margin: 2.5rem 0rem;
 }
-
 /* Button Design */
 .btn-primary{
     border-radius: 3rem;
@@ -160,4 +159,48 @@ nav{
 
 .banner-img img{
     width: 100%;
+}
+
+/*====================== */
+/* ------Gammer Section Styles---------- */
+/* ===================== */
+.gammer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.gammer-img img{
+    width: 100%;
+}
+
+.gammer-content{
+    text-align: right;
+}
+.gammer-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.gammer-description{
+    font-weight: 400;
+    line-height: 30px;
+    width: 32.5rem;
+    margin-left: 2.8rem;
+    margin: 1rem 0rem  1rem 2.8rem;
+}
+
+.gammer-purpose-description{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    margin-top: 2.2rem;
+}
+..gammer-purpose-description span{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 2.5rem;
 }
