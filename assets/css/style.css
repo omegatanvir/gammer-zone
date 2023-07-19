@@ -77,6 +77,17 @@ p{
     cursor: pointer;
 }
 
+.btn-tertiary{
+    border-radius: 3rem;
+    background: var(--white-color);
+    color: var(--primary-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    padding: 1.25rem 2.5rem;
+    cursor: pointer;
+}
+
 /*====================== */
 /* ------Hero Section Styles---------- */
 /* ===================== */
@@ -304,3 +315,54 @@ nav{
         text-align: left;
         margin-left: 5rem;
     }
+
+    
+/*====================== =========*/
+/* ------Careers Section Styles---------- */
+/* ============================== */
+.careers-section{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.careers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 0rem;
+    gap: 3.5rem;
+}
+
+.careers-list{
+    display: flex;
+    justify-content: space-between;
+}
+.careers-image img{
+    width: 100%;
+}
+
+.careers-content h2{
+    margin-right: 3rem;
+    color: var(--white-color);
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.careers-content p{
+    color: var(--white-color);
+}
+
+.list-one, .list-two{
+    color: var(--white-color);
+    margin: 1.5rem 0rem;
+    font-weight: 600;
+    line-height: 40px; 
+}
+
+.list-one ul{
+    list-style: none;
+}
+.list-two ul{
+    text-align: right;
+    list-style: none;
+}
+

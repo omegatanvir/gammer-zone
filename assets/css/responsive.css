@@ -6,7 +6,8 @@
     .banner-section,
     .gammer,
     .online-game > .card-container,
-    .paly-game
+    .paly-game,
+    .careers
     {
         flex-direction: column;
     }
@@ -20,6 +21,9 @@
     .banner,
     .banner-img,
     .gammer-img,
+    .careers-content,
+    .careers-image
+
     {
         width: 90%;
     }
@@ -53,6 +57,27 @@
     font-weight: 500;
     margin-bottom: 3.5rem;
 }
+/* .paly-game Styles */
+.paly-game-img img,
+.play-instantly-img img,
+{
+    width: 100%;
+    position: relative;
+}
+
+.play-instantly-img-one
+{
+    position: absolute;
+    top: 22rem;
+    right: 10rem;
+}
+.paly-game-img-one
+{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+}
+
 }
 
 /* Medium Device Responsive */
