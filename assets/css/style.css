@@ -13,6 +13,7 @@
     --primary-color: #FF42A5;
     --secondary-color: #4EC5F7;
     --description-color: #534C64;
+    --description-light-color: rgba(255, 255, 255, 0.60);
     --black-color: #0B0223;
     --white-color: #FFF;
     --heading-font-size: 3rem;
@@ -366,3 +367,59 @@ nav{
     list-style: none;
 }
 
+/*====================== =========*/
+/* ------FooterSection Styles---------- */
+/* ============================== */
+.footer{
+    background: var(--black-color);
+}
+
+.footer-section{
+    padding: 6rem;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    color: var(--white-color);
+    margin-bottom: 3rem;
+}
+
+.footer-menu-one ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.footer-menu-one a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.social-icon{
+    font-size: 2.5rem;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.footer-menu-two ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.footer-menu-two a{
+    text-decoration: none;
+    color: var(--description-light-color);
+    font-weight: 600;
+}
+
+.footer-description{
+    text-align: center;
+    color: var(--description-light-color);
+}
