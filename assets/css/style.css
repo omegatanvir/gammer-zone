@@ -288,26 +288,27 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 7rem;
+    gap: 8rem;
 }
 
-.play-instantly-img{
-    width: 90%;
+.play-instantly-img img{
+    width: 100%;
     background-size: cover;
     position: relative;
-    display: flex;
-    justify-content: right;
 }
 
 .play-instantly-img-one{
     position: absolute;
-    top: 22rem;
-    right: 28rem;
+    top: 125rem;
+    left: 40rem;
+    width: 19.875rem;
+    height: 22.813rem;
+    z-index: 1;
 }
 
 .play-instantly-content
     {
         text-align: right;
-        margin-right: 12rem;
     }
 
 .play-instantly-title span,
@@ -325,10 +326,11 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 10rem 0rem;
+    gap: 8rem;
 }
 
-.paly-game-img{
-    width: 70%;
+.paly-game-img img{
+    width: 100%;
     background-size: cover;
     position: relative;
     display: flex;
@@ -337,14 +339,14 @@ nav{
 
 .paly-game-img-one{
     position: absolute;
-    top: 25rem;
-    left: 32rem;
+    top: 168rem;
+    left: 25rem;
+    z-index: 1;
 }
 
 .play-game-content
     {
-        text-align: left;
-        margin-left: 5rem;
+        padding-left: 6rem;
     }
 
     
@@ -408,13 +410,8 @@ nav{
     justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
-}
+    flex-wrap: wrap;
 
-.btn-profile-one-two{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
 }
 
 .profile-h2-img{
@@ -467,6 +464,7 @@ nav{
     gap: 2rem;
     list-style: none;
     margin-bottom: 1.5rem;
+    flex-wrap: wrap;
 }
 
 .footer-menu-one a{
@@ -487,6 +485,8 @@ nav{
     gap: 2rem;
     list-style: none;
     margin-top: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
 
 .footer-menu-two a{

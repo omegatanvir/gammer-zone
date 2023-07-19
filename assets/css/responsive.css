@@ -18,14 +18,33 @@
         gap: 4rem;
     }
 
-    .banner,
     .banner-img,
     .gammer-img,
     .careers-content,
-    .careers-image
-
+    .careers-image,
+    .play-instantly-content,
+    .play-game-content,
+    .gammer-content
     {
         width: 90%;
+    }
+
+    .paly-game-img img,
+    .play-instantly-img img,
+    .banner-section,
+    .banner{
+        width: 100%;
+    }
+
+    .play-instantly-content,
+    .play-game-content,
+    .banner-section{
+        text-align: center;
+    }
+
+    .play-game-content{
+        margin: 0;
+        padding: 0;
     }
     /* Nav & banner Section Styles */
     .main-nav ul{
@@ -77,8 +96,22 @@
     top: 0rem;
     right: 0rem;
 }
-
+.paly-game-img-one{
+    top: 350rem;
+    left: 20rem;
+    width: 10rem;
 }
+.play-instantly-img-one{
+    top: 308rem;
+    left: 20rem;
+    width: 10rem;
+}
+
+.profile-h2-img{
+    flex-wrap: wrap;
+}
+}
+
 
 /* Medium Device Responsive */
 @media screen and (min-width: 576px) and (max-width: 992px){
