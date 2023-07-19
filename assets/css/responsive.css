@@ -115,6 +115,47 @@
 
 /* Medium Device Responsive */
 @media screen and (min-width: 576px) and (max-width: 992px){
+    .banner,
+    .gammer-content,
+    nav,
+    .play-instantly-content,
+    .careers-content 
+    {
+        padding: 0rem 1.5rem;
+    }
+
+    .main-nav ul {
+        gap: 2rem;
+    }
+    .paly-game-img img,
+    .play-instantly-img img,
+    {
+        width: 100%;
+        position: relative;
+    }
+    
+    .play-instantly-img-one
+    {
+        position: absolute;
+        top: 22rem;
+        right: 10rem;
+    }
+    .paly-game-img-one
+    {
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+    }
+    .paly-game-img-one{
+        top: 122rem;
+        left: 30rem;
+        width: 14rem;
+    }
+    .play-instantly-img-one{
+        top: 155rem;
+        left: 18rem;
+        width: 14rem;
+    }
     
 
 }

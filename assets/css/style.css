@@ -175,6 +175,11 @@ nav{
     width: 100%;
 }
 
+.banner-section ul li i {
+    font-size: 1rem;
+    margin-right: .5rem;
+    color: var(--primary-color);
+}
 /*====================== */
 /* ------Gammer Section Styles---------- */
 /* ===================== */
