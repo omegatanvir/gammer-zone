@@ -5,11 +5,14 @@
     .main-nav ul,
     .banner-section,
     .gammer,
-    .online-game > .card-container
+    .online-game > .card-container,
+    .paly-game
     {
         flex-direction: column;
     }
-    .banner-section{
+    .banner-section,
+    .play-instantly
+    {
         flex-direction: column-reverse;
         gap: 4rem;
     }

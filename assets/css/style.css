@@ -63,6 +63,7 @@ p{
     text-transform: uppercase;
     border: 0;
     padding: 1.25rem 2.5rem;
+    cursor: pointer;
 }
 
 .btn-secondary{
@@ -73,6 +74,7 @@ p{
     text-transform: uppercase;
     border: 0;
     padding: 1.25rem 2.5rem;
+    cursor: pointer;
 }
 
 /*====================== */
@@ -236,3 +238,69 @@ nav{
     margin-bottom: 3rem;
 }
 
+/*====================== =========*/
+/* ------play-instantly Section Styles---------- */
+/* ============================== */
+.play-instantly{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7rem;
+}
+
+.play-instantly-img{
+    width: 90%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+.play-instantly-img-one{
+    position: absolute;
+    top: 22rem;
+    right: 28rem;
+}
+
+.play-instantly-content
+    {
+        text-align: right;
+        margin-right: 12rem;
+    }
+
+.play-instantly-title span,
+.paly-game-title span
+    {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+/* play-instantly-content */
+.paly-game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem 0rem;
+}
+
+.paly-game-img{
+    width: 70%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+.paly-game-img-one{
+    position: absolute;
+    top: 25rem;
+    left: 32rem;
+}
+
+.play-game-content
+    {
+        text-align: left;
+        margin-left: 5rem;
+    }
